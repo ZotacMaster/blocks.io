@@ -28,7 +28,7 @@ const Terminal = ({ handleMove })=>{
         // Handle commands
         const result = handleMove(trimmedCommand);
         if (result) {
-          newOutput += `\nMoved ${trimmedCommand}. Current position: ${result}\n`;
+          newOutput += `\n`;
         } else {
           newOutput += `\nInvalid command. Try: up, down, left, right.\n`;
         }
